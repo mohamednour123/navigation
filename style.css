@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: verdana; 
+}
+.navbar{
+	width: 100%;
+	background-color: #2c3e50;
+	overflow: auto;
+}
+.navbar a{
+	float: left;
+	padding: 20px;
+	color:#fff;
+	text-decoration: none;
+	font-size: 17px;
+	transition: 0.4s all;
+}
+
+.navbar a:hover{
+	background-color: #1abc9c;
+	color: #2c3e50;
+}
+
+.active{
+	background-color: #1abc9c;
+	color: #2c3e50 !important; 
+}
+
+@media screen and (max-width: 500px){
+	.navbar a{
+		float:none;
+		display: block;
+		text-align: center;
+	}
+}
+body{
+	background-image: url(nouraaa.jpg);
+}
+.title{
+	position: absolute;
+	
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	/*fråga lärare om transition: 0.4s all;*/
+}
+.title h1{
+	font-size: 70px;
+	color: white
+}
+.title h1:hover{
+	background-color: #1abc9c;
+
+}
